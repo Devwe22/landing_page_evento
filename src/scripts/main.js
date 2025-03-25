@@ -53,9 +53,4 @@ AOS.init();
             // Reduz o tempo restante
             timeRemaining -= 1000; // reduz 1 segundo
 
-            if(distanciaAteOEvento < 0 ) {
-                clearInterval(contarAHoras);
-                countdownElement.innerHTML = 'Evento expirado';
-            }
         }, 1000);
-    
