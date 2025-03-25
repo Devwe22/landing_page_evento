@@ -1,0 +1,29 @@
+.button {
+    padding: 12px 60px 12px 60px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap; /*diz para o elemento se deve ou nao quebrar a linha */
+    
+
+    &__primary {
+        color: #fff;
+        background-color: #4F2AC3;
+        align-items: center;
+    }
+
+    @media (max-width: 640px) {
+    display: flex;
+    width: 100%;    
+    }
+
+    @media (max-width: 1024px) {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
